@@ -1,224 +1,225 @@
 {
-  "files":[
-     {
-        "table":"CODBEX_CITY",
-        "schema":"PUBLIC",
-        "file":"/codbex-uoms-data/cities.csv",
-        "header":true,
-        "useHeaderNames":true,
-        "delimField":",",
-        "delimEnclosing":"\"",
-        "distinguishEmptyFromNull":true
-     },
-     {
-        "table":"CODBEX_COMPANY",
-        "schema":"PUBLIC",
-        "file":"/codbex-uoms-data/cities.csv",
-        "header":true,
-        "useHeaderNames":true,
-        "delimField":",",
-        "delimEnclosing":"\"",
-        "distinguishEmptyFromNull":true
-     },
-     {
-        "table":"CODBEX_CUSTOMER",
-        "schema":"PUBLIC",
-        "file":"/codbex-uoms-data/customers.csv",
-        "header":true,
-        "useHeaderNames":true,
-        "delimField":",",
-        "delimEnclosing":"\"",
-        "distinguishEmptyFromNull":true
-     },
-     {
-        "table":"CODBEX_EMPLOYEE",
-        "schema":"PUBLIC",
-        "file":"/codbex-uoms-data/employees.csv",
-        "header":true,
-        "useHeaderNames":true,
-        "delimField":",",
-        "delimEnclosing":"\"",
-        "distinguishEmptyFromNull":true
-     },
-     {
-        "table":"CODBEX_GOODSISSUEITEM",
-        "schema":"PUBLIC",
-        "file":"/codbex-uoms-data/goods-issue-items.csv",
-        "header":true,
-        "useHeaderNames":true,
-        "delimField":",",
-        "delimEnclosing":"\"",
-        "distinguishEmptyFromNull":true
-     },
-     {
-        "table":"CODBEX_GOODSISSUE",
-        "schema":"PUBLIC",
-        "file":"/codbex-uoms-data/goods-issues.csv",
-        "header":true,
-        "useHeaderNames":true,
-        "delimField":",",
-        "delimEnclosing":"\"",
-        "distinguishEmptyFromNull":true
-     },
-     {
-        "table":"CODBEX_GOODSRECEIPTITEM",
-        "schema":"PUBLIC",
-        "file":"/codbex-uoms-data/goods-receipt-items.csv",
-        "header":true,
-        "useHeaderNames":true,
-        "delimField":",",
-        "delimEnclosing":"\"",
-        "distinguishEmptyFromNull":true
-     },
-     {
-        "table":"CODBEX_GOODSRECEIPT",
-        "schema":"PUBLIC",
-        "file":"/codbex-uoms-data/goods-receipts.csv",
-        "header":true,
-        "useHeaderNames":true,
-        "delimField":",",
-        "delimEnclosing":"\"",
-        "distinguishEmptyFromNull":true
-     },
-     {
-        "table":"CODBEX_MANIFACTURER",
-        "schema":"PUBLIC",
-        "file":"/codbex-uoms-data/manifacturers.csv",
-        "header":true,
-        "useHeaderNames":true,
-        "delimField":",",
-        "delimEnclosing":"\"",
-        "distinguishEmptyFromNull":true
-     },
-     {
-        "table":"CODBEX_PRODUCT",
-        "schema":"PUBLIC",
-        "file":"/codbex-uoms-data/products.csv",
-        "header":true,
-        "useHeaderNames":true,
-        "delimField":",",
-        "delimEnclosing":"\"",
-        "distinguishEmptyFromNull":true
-     },
-     {
-        "table":"CODBEX_PURCHASEINVOICEITEM",
-        "schema":"PUBLIC",
-        "file":"/codbex-uoms-data/purchase-invoice-items.csv",
-        "header":true,
-        "useHeaderNames":true,
-        "delimField":",",
-        "delimEnclosing":"\"",
-        "distinguishEmptyFromNull":true
-     },
-     {
-        "table":"CODBEX_PURCHASEINVOICE",
-        "schema":"PUBLIC",
-        "file":"/codbex-uoms-data/purchase-invoices.csv",
-        "header":true,
-        "useHeaderNames":true,
-        "delimField":",",
-        "delimEnclosing":"\"",
-        "distinguishEmptyFromNull":true
-     },
-     {
-        "table":"CODBEX_PURCHASEORDERITEM",
-        "schema":"PUBLIC",
-        "file":"/codbex-uoms-data/purchase-order-items.csv",
-        "header":true,
-        "useHeaderNames":true,
-        "delimField":",",
-        "delimEnclosing":"\"",
-        "distinguishEmptyFromNull":true
-     },
-     {
-        "table":"CODBEX_PURCHASEORDER",
-        "schema":"PUBLIC",
-        "file":"/codbex-uoms-data/purchase-orders.csv",
-        "header":true,
-        "useHeaderNames":true,
-        "delimField":",",
-        "delimEnclosing":"\"",
-        "distinguishEmptyFromNull":true
-     },
-     {
-        "table":"CODBEX_SALESINVOICEITEM",
-        "schema":"PUBLIC",
-        "file":"/codbex-uoms-data/sales-invoice-items.csv",
-        "header":true,
-        "useHeaderNames":true,
-        "delimField":",",
-        "delimEnclosing":"\"",
-        "distinguishEmptyFromNull":true
-     },
-     {
-        "table":"CODBEX_SALESINVOICE",
-        "schema":"PUBLIC",
-        "file":"/codbex-uoms-data/sales-invoice-items.csv",
-        "header":true,
-        "useHeaderNames":true,
-        "delimField":",",
-        "delimEnclosing":"\"",
-        "distinguishEmptyFromNull":true
-     },
-     {
-        "table":"CODBEX_SALESORDERITEM",
-        "schema":"PUBLIC",
-        "file":"/codbex-uoms-data/sales-order-items.csv",
-        "header":true,
-        "useHeaderNames":true,
-        "delimField":",",
-        "delimEnclosing":"\"",
-        "distinguishEmptyFromNull":true
-     },
-     {
-        "table":"CODBEX_SALESORDER",
-        "schema":"PUBLIC",
-        "file":"/codbex-uoms-data/sales-orders.csv",
-        "header":true,
-        "useHeaderNames":true,
-        "delimField":",",
-        "delimEnclosing":"\"",
-        "distinguishEmptyFromNull":true
-     },
-     {
-        "table":"CODBEX_STORE",
-        "schema":"PUBLIC",
-        "file":"/codbex-uoms-data/stores.csv",
-        "header":true,
-        "useHeaderNames":true,
-        "delimField":",",
-        "delimEnclosing":"\"",
-        "distinguishEmptyFromNull":true
-     },
-     {
-        "table":"CODBEX_SUPPLIER",
-        "schema":"PUBLIC",
-        "file":"/codbex-uoms-data/suppliers.csv",
-        "header":true,
-        "useHeaderNames":true,
-        "delimField":",",
-        "delimEnclosing":"\"",
-        "distinguishEmptyFromNull":true
-     },
-     {
-        "table":"CODBEX_DIMENSION",
-        "schema":"PUBLIC",
-        "file":"/codbex-uoms-data/dimensions.csv",
-        "header":true,
-        "useHeaderNames":true,
-        "delimField":",",
-        "delimEnclosing":"\"",
-        "distinguishEmptyFromNull":true
-     },
-     {
-        "table":"CODBEX_UOM",
-        "schema":"PUBLIC",
-        "file":"/codbex-uoms-data/uoms.csv",
-        "header":true,
-        "useHeaderNames":true,
-        "delimField":",",
-        "delimEnclosing":"\"",
-        "distinguishEmptyFromNull":true
-     }
+  "files": [
+    {
+      "table": "CODBEX_CITY",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/cities.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_COMPANY",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/companies.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_CUSTOMER",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/customers.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_EMPLOYEE",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/employees.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_GOODSISSUEITEM",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/goods-issue-items.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_GOODSISSUE",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/goods-issues.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_GOODSRECEIPTITEM",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/goods-receipt-items.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_GOODSRECEIPT",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/goods-receipts.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_MANIFACTURER",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/manifacturers.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_PRODUCT",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/products.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_PURCHASEINVOICEITEM",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/purchase-invoice-items.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_PURCHASEINVOICE",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/purchase-invoices.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_PURCHASEORDERITEM",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/purchase-order-items.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_PURCHASEORDER",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/purchase-orders.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_SALESINVOICEITEM",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/sales-invoice-items.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_SALESINVOICE",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/sales-invoices.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_SALESORDERITEM",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/sales-order-items.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_SALESORDER",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/sales-orders.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_STORE",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/stores.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_SUPPLIER",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/suppliers.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_DIMENSION",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/dimensions.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_UOM",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/uoms.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true,
+      "version": "1.1"
+    }
   ]
 }
