@@ -149,7 +149,8 @@
       "useHeaderNames": true,
       "delimField": ",",
       "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true
+      "distinguishEmptyFromNull": true,
+      "version": "0.1"
     },
     {
       "table": "CODBEX_SALESINVOICE",
