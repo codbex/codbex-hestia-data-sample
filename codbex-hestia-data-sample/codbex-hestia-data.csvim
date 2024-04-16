@@ -82,9 +82,9 @@
       "distinguishEmptyFromNull": true
     },
     {
-      "table": "CODBEX_MANIFACTURER",
+      "table": "CODBEX_MANUFACTURER",
       "schema": "PUBLIC",
-      "file": "/codbex-hestia-data-sample/manifacturers.csv",
+      "file": "/codbex-hestia-data-sample/manufacturers.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
