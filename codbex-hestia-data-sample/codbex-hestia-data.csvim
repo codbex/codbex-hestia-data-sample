@@ -222,6 +222,17 @@
       "delimEnclosing": "\"",
       "distinguishEmptyFromNull": true,
       "version": "1.1"
+    },
+    {
+      "table": "CODBEX_STOCKRECORD",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/stock-record.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true,
+      "version": ""
     }
   ]
 }
