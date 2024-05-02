@@ -216,3 +216,38 @@ WHERE
 GROUP BY 
     SR.STOCKRECORD_PRODUCT, P.PRODUCT_NAME;
 ```
+
+- Products ranked by number of sales
+
+```sql
+SELECT
+    p.PRODUCT_NAME,
+    COUNT(si.SALESINVOICEITEM_ID) AS order_count
+FROM
+    CODBEX_PRODUCT p
+JOIN
+    CODBEX_SALESINVOICEITEM si ON p.PRODUCT_ID = si.SALESINVOICEITEM_PRODUCT
+GROUP BY
+    p.PRODUCT_ID,
+    p.PRODUCT_NAME
+ORDER BY
+    order_count DESC;
+```
+
+- Customers ranked by number of sales
+
+```sql
+SELECT
+    c.CUSTOMER_NAME,
+    COUNT(si.SALESINVOICE_ID) AS invoice_count
+FROM
+    CODBEX_CUSTOMER c
+LEFT JOIN
+    CODBEX_SALESINVOICE si ON c.CUSTOMER_ID = si.SALESINVOICE_CUSTOMER
+GROUP BY
+    c.CUSTOMER_ID,
+    c.CUSTOMER_NAME
+ORDER BY
+    invoice_count DESC;
+```
+
