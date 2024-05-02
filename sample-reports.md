@@ -234,23 +234,6 @@ ORDER BY
     order_count DESC;
 ```
 
-- Customers ranked by number of sales
-
-```sql
-SELECT
-    c.CUSTOMER_NAME,
-    COUNT(si.SALESINVOICE_ID) AS invoice_count
-FROM
-    CODBEX_CUSTOMER c
-LEFT JOIN
-    CODBEX_SALESINVOICE si ON c.CUSTOMER_ID = si.SALESINVOICE_CUSTOMER
-GROUP BY
-    c.CUSTOMER_ID,
-    c.CUSTOMER_NAME
-ORDER BY
-    invoice_count DESC;
-```
-
 - Products availability ordered by number of sales
 
 
@@ -270,3 +253,24 @@ p.PRODUCT_NAME
 ORDER BY
 total_sold DESC;
 ```
+
+### Customers
+
+- Customers ranked by number of sales
+
+```sql
+SELECT
+    c.CUSTOMER_NAME,
+    COUNT(si.SALESINVOICE_ID) AS invoice_count
+FROM
+    CODBEX_CUSTOMER c
+LEFT JOIN
+    CODBEX_SALESINVOICE si ON c.CUSTOMER_ID = si.SALESINVOICE_CUSTOMER
+GROUP BY
+    c.CUSTOMER_ID,
+    c.CUSTOMER_NAME
+ORDER BY
+    invoice_count DESC;
+```
+
+
