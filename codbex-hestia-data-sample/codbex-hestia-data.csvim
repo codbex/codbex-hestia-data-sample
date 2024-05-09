@@ -233,6 +233,28 @@
       "delimEnclosing": "\"",
       "distinguishEmptyFromNull": true,
       "version": ""
+    },
+    {
+      "table": "CODBEX_STOCKADJUSTMENT",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/stock-adjustments.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true,
+      "version": "1.0"
+    },
+    {
+      "table": "CODBEX_STOCKADJUSTMENTITEM",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/stock-adjustment-items.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true,
+      "version": ""
     }
   ]
 }
