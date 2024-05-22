@@ -255,7 +255,7 @@
       "delimEnclosing": "\"",
       "distinguishEmptyFromNull": true,
       "version": ""
-    }
+    },
     {
       "table": "CODBEX_CATALOGUE",
       "schema": "PUBLIC",
