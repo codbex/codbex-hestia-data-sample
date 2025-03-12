@@ -1,6 +1,17 @@
 {
   "files": [
     {
+      "table": "CODBEX_CATALOGUE",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/catalogue.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true,
+      "version": ""
+    },
+    {
       "table": "CODBEX_CITY",
       "schema": "PUBLIC",
       "file": "/codbex-hestia-data-sample/cities.csv",
@@ -22,9 +33,30 @@
       "distinguishEmptyFromNull": true
     },
     {
+      "table": "CODBEX_CURRENCY",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/currencies.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true,
+      "version": ""
+    },
+    {
       "table": "CODBEX_CUSTOMER",
       "schema": "PUBLIC",
       "file": "/codbex-hestia-data-sample/customers.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_DIMENSION",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/dimensions.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
@@ -42,16 +74,6 @@
       "distinguishEmptyFromNull": true
     },
     {
-      "table": "CODBEX_GOODSISSUEITEM",
-      "schema": "PUBLIC",
-      "file": "/codbex-hestia-data-sample/goods-issue-items.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true
-    },
-    {
       "table": "CODBEX_GOODSISSUE",
       "schema": "PUBLIC",
       "file": "/codbex-hestia-data-sample/goods-issues.csv",
@@ -62,9 +84,9 @@
       "distinguishEmptyFromNull": true
     },
     {
-      "table": "CODBEX_GOODSRECEIPTITEM",
+      "table": "CODBEX_GOODSISSUEITEM",
       "schema": "PUBLIC",
-      "file": "/codbex-hestia-data-sample/goods-receipt-items.csv",
+      "file": "/codbex-hestia-data-sample/goods-issue-items.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
@@ -82,6 +104,16 @@
       "distinguishEmptyFromNull": true
     },
     {
+      "table": "CODBEX_GOODSRECEIPTITEM",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/goods-receipt-items.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
       "table": "CODBEX_MANUFACTURER",
       "schema": "PUBLIC",
       "file": "/codbex-hestia-data-sample/manufacturers.csv",
@@ -92,19 +124,20 @@
       "distinguishEmptyFromNull": true
     },
     {
-      "table": "CODBEX_PRODUCT",
+      "table": "CODBEX_NUMBER",
       "schema": "PUBLIC",
-      "file": "/codbex-hestia-data-sample/products.csv",
+      "file": "/codbex-hestia-data-sample/numbers.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
       "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true
+      "distinguishEmptyFromNull": true,
+      "version": ""
     },
     {
-      "table": "CODBEX_PURCHASEINVOICEITEM",
+      "table": "CODBEX_PRODUCT",
       "schema": "PUBLIC",
-      "file": "/codbex-hestia-data-sample/purchase-invoice-items.csv",
+      "file": "/codbex-hestia-data-sample/products.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
@@ -122,9 +155,9 @@
       "distinguishEmptyFromNull": true
     },
     {
-      "table": "CODBEX_PURCHASEORDERITEM",
+      "table": "CODBEX_PURCHASEINVOICEITEM",
       "schema": "PUBLIC",
-      "file": "/codbex-hestia-data-sample/purchase-order-items.csv",
+      "file": "/codbex-hestia-data-sample/purchase-invoice-items.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
@@ -135,6 +168,26 @@
       "table": "CODBEX_PURCHASEORDER",
       "schema": "PUBLIC",
       "file": "/codbex-hestia-data-sample/purchase-orders.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_PURCHASEORDERITEM",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/purchase-order-items.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_SALESINVOICE",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/sales-invoices.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
@@ -153,9 +206,9 @@
       "version": "0.1"
     },
     {
-      "table": "CODBEX_SALESINVOICE",
+      "table": "CODBEX_SALESORDER",
       "schema": "PUBLIC",
-      "file": "/codbex-hestia-data-sample/sales-invoices.csv",
+      "file": "/codbex-hestia-data-sample/sales-orders.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
@@ -171,68 +224,6 @@
       "delimField": ",",
       "delimEnclosing": "\"",
       "distinguishEmptyFromNull": true
-    },
-    {
-      "table": "CODBEX_SALESORDER",
-      "schema": "PUBLIC",
-      "file": "/codbex-hestia-data-sample/sales-orders.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true
-    },
-    {
-      "table": "CODBEX_STORE",
-      "schema": "PUBLIC",
-      "file": "/codbex-hestia-data-sample/stores.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true
-    },
-    {
-      "table": "CODBEX_SUPPLIER",
-      "schema": "PUBLIC",
-      "file": "/codbex-hestia-data-sample/suppliers.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true
-    },
-    {
-      "table": "CODBEX_DIMENSION",
-      "schema": "PUBLIC",
-      "file": "/codbex-hestia-data-sample/dimensions.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true
-    },
-    {
-      "table": "CODBEX_UOM",
-      "schema": "PUBLIC",
-      "file": "/codbex-hestia-data-sample/uoms.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true,
-      "version": "1.1"
-    },
-    {
-      "table": "CODBEX_STOCKRECORD",
-      "schema": "PUBLIC",
-      "file": "/codbex-hestia-data-sample/stock-record.csv",
-      "header": true,
-      "useHeaderNames": true,
-      "delimField": ",",
-      "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true,
-      "version": ""
     },
     {
       "table": "CODBEX_STOCKADJUSTMENT",
@@ -257,9 +248,9 @@
       "version": ""
     },
     {
-      "table": "CODBEX_CATALOGUE",
+      "table": "CODBEX_STOCKRECORD",
       "schema": "PUBLIC",
-      "file": "/codbex-hestia-data-sample/catalogue.csv",
+      "file": "/codbex-hestia-data-sample/stock-record.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
@@ -268,26 +259,35 @@
       "version": ""
     },
     {
-      "table": "CODBEX_NUMBER",
+      "table": "CODBEX_STORE",
       "schema": "PUBLIC",
-      "file": "/codbex-hestia-data-sample/numbers.csv",
+      "file": "/codbex-hestia-data-sample/stores.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
       "delimEnclosing": "\"",
-      "distinguishEmptyFromNull": true,
-      "version": ""
+      "distinguishEmptyFromNull": true
     },
     {
-      "table": "CODBEX_CURRENCY",
+      "table": "CODBEX_SUPPLIER",
       "schema": "PUBLIC",
-      "file": "/codbex-hestia-data-sample/currencies.csv",
+      "file": "/codbex-hestia-data-sample/suppliers.csv",
+      "header": true,
+      "useHeaderNames": true,
+      "delimField": ",",
+      "delimEnclosing": "\"",
+      "distinguishEmptyFromNull": true
+    },
+    {
+      "table": "CODBEX_UOM",
+      "schema": "PUBLIC",
+      "file": "/codbex-hestia-data-sample/uoms.csv",
       "header": true,
       "useHeaderNames": true,
       "delimField": ",",
       "delimEnclosing": "\"",
       "distinguishEmptyFromNull": true,
-      "version": ""
+      "version": "1.1"
     }
   ]
 }
